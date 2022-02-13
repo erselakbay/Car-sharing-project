@@ -1,0 +1,321 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900");
+
+body {
+	font-family: "Raleway", sans-serif;
+	font-size: 1.2em;
+  color: #707070;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+a {
+  transition: all 0.3s ease;
+  color: #D40;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+  color: #FF416C;
+}
+
+a:focus {
+  outline: none;
+}
+
+.btn {
+  padding: 8px 32px;
+}
+
+.btn:hover {
+  background-color: #ced4da;
+}
+
+blockquote {
+  font-size: 0.86em;
+  line-height: 1.8em;
+}
+
+.tm-section-pad-top {
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+
+.tm-content-box {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.tm-text-primary {
+  color: black;
+}
+
+.tm-font-big {
+  font-size: 1.25rem;
+}
+
+.tm-btn-primary {
+  color: white;
+  background-color: #369;
+  padding: 14px 30px;
+}
+
+.tm-btn-primary:hover,
+.tm-btn-primary:focus {
+  color: white;
+  background-color: #38B;
+}
+
+/* Navbar */
+
+.tm-navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+	background-color: #FF4B2B;
+  transition: all 0.3s ease;
+}
+
+.tm-navbar.scroll {
+  background-color: white;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.navbar-brand {
+  color: white;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.navbar-brand:hover,
+.tm-navbar.scroll .navbar-brand:hover {
+  color: black;
+}
+
+.tm-navbar.scroll .navbar-brand {
+  color:  #FF4B2B;
+}
+
+.nav-item {
+  list-style: none;
+}
+
+.tm-nav-link {
+  color: white;
+}
+
+.tm-navbar.scroll .tm-nav-link {
+  color:  #FF4B2B;
+}
+
+.tm-navbar.scroll .tm-nav-link:hover,
+.tm-navbar.scroll .tm-nav-link.current,
+.tm-nav-link:hover {
+  color: #FFF;
+  background-color: #FF4B2B;
+}
+
+.navbar-toggler {
+  border: 1px solid white;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.navbar-toggler-icon {
+  color: white;
+  padding-top: 6px;
+}
+
+.tm-navbar.scroll .navbar-toggler {
+  border: 1px solid #707070;
+}
+
+.tm-navbar.scroll .navbar-toggler-icon {
+  color: #707070;
+}
+
+/* Hero */
+
+#infinite {
+	background-color: white;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.tm-hero-text-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.tm-hero-text-container-inner {
+  margin-top: -90px;
+}
+
+.tm-hero-title {
+  font-size: 3.5rem;
+  text-shadow: 2px 2px 2px #333;
+}
+
+.tm-hero-subtitle {
+  text-shadow: 2px 2px 2px #333;
+}
+
+.tm-intro-next {
+  position: absolute;
+  bottom: 100px;
+  left: 0;
+  right: 0;
+}
+
+/* Introduction */
+
+#introduction {
+  padding-bottom: 100px;
+}
+
+.tm-section-title {
+  font-size: 2.6rem;
+  font-weight: normal;
+}
+
+.tm-intro-text {
+  font-size: 1.2rem;
+}
+
+.tm-icon {
+  display: block;
+  color:  #FF4B2B;
+}
+
+.tm-continue {
+	padding: 20px 0 30px 0;
+}
+
+
+
+.tm-continue {
+	padding: 20px 0 30px 0;
+}
+
+
+
+select
+{
+  border: 2px solid black;
+  margin: 50px; 
+}
+
+#date{
+  border: 2px solid black;
+  margin: 50px; 
+}
+#saatler{
+  border: 2px solid black;
+  margin: 50px; 
+}
+#button{
+  border: 2px solid black;
+  margin: 50px; 
+}
+
+
+#searching {
+  color: black;
+  background-color: #F0E4D7;                 /*  orjinal satır*/   /* background-color: #001828; */
+ /* background-image: url(../img/dou.jpg);   */
+  background-position: center;
+  background-repeat: no-repeat;
+  height: auto;   /* eklendi */
+  width:100%;   /* eklendi */
+  max-width:100%;  /* eklendi */
+  min-height: 350px;
+  position: relative;
+  padding-bottom: 150px;
+  padding-top: 200px;
+}
+
+/* Contact */
+
+#contact {
+  color: white;
+  background-color: #3F4E50;   /*  orjinal satır*/   /* background-color: #001828; */
+  /*background-image: url(../img/infinite-loop-03.jpg);   */
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100px;
+  position: relative;
+  padding-bottom: 50px;
+  padding-top: 200px;
+}
+
+.contact-item {
+  margin-left: 20px;
+  margin-bottom: 50px;
+}
+
+.item-link {
+  display: flex;
+  align-items: center;
+}
+
+.item-link i,
+.item-link span {
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.item-link:hover i,
+.item-link:hover span {
+  color: #FF416C;
+}
+
+.tm-input {
+	margin: 0 0 20px 0;
+	width: 90%;
+  padding: 8px 20px;
+  border-radius: 6px;
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+}
+
+
+.tm-footer {
+  position: absolute;
+  bottom: 35px;
+  left: 0;
+  right: 0;
+  padding: 0 15px;
+}
+
+.tm-footer a {
+	color: #fff;
+}
+
+.tm-footer a:hover {
+	color: #FF4B2B;
+}
+
+.tm-footer-link {
+  color: white;
+}
+
+.tm-footer-link:hover,
+.tm-footer-link:focus {
+  color: #FF4B2B;
+  text-decoration: none;
+}
+
+p {
+  line-height: 1.9;
+}
+
+
+.card{
+  background:white; 
+  margin-bottom: 10px;
+
+}
